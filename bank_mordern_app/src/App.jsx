@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import Stats from "./components/Stats";
 
 const App = () => (
-  <div className="bg-primary w-full overflow-hidden">
+  <div className="bg-primary w-screen overflow-hidden">
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />
@@ -25,10 +25,10 @@ const App = () => (
         <Business />
         <Billing />
         <CardDeal />
-        <Testimonials />
+        <Testimonials/>
         <Clients />
         <CTA />
-        <Footer />
+        <Footer /> 
       </div>
     </div>
   </div>
